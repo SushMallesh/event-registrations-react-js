@@ -1,0 +1,50 @@
+.event-item {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width: 100%;
+  font-family: 'Roboto';
+  line-height: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+@media (min-width: 768px) {
+  .event-item {
+    width: 46%;
+  }
+}
+
+.event-image {
+  width: 150px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .event-image {
+    width: 100%;
+  }
+}
+.event-name {
+  color: #f8fafc;
+  font-size: 15px;
+}
+@media (min-width: 768px) {
+  .event-name {
+    font-size: 25px;
+  }
+}
+.event-location {
+  color: #f8fafc;
+  font-size: 10px;
+}
+@media (min-width: 768px) {
+  .event-location {
+    font-size: 18px;
+  }
+}
+.select-event-button {
+  border: 2px solid #2dd4bf;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}

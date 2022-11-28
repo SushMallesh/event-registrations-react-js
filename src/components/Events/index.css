@@ -1,0 +1,23 @@
+.app-container {
+  display: flex;
+  width: 100%;
+}
+.events-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #323f4b;
+  width: 65%;
+}
+.events-heading {
+  font-size: 32px;
+  color: #f8fafc;
+  font-family: 'Roboto';
+  padding-left: 40px;
+}
+.events-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-shrink: 0;
+}
